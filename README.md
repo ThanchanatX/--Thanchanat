@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="https://media.discordapp.net/attachments/1416655767104393330/1416661590304096368/unnamed-Photoroom_1.png?ex=68c7a86b&is=68c656eb&hm=73bada98bbfc5a63967bced7b3a9a9b08519fb71088a281f1ffc5afeec7535e3&=&format=webp&quality=lossless" width="500" alt="Logo"/>
+</p>
 <h1 align="center">หลักการเขียนโปรแกรมคอมพิวเตอร์ C#.NET</h1>
 
 <p align="center">
