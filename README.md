@@ -221,3 +221,107 @@ class Program
 }
 
 ```
+## 🚀ส่งงาน10 -  อาเรย์ 1 มิติ
+
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Thanchanat
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //ข้อที่ 1
+            /*
+            int[] numbers = new int[10];
+            int sumOfOddIndex = 0;
+            int countOfOddIndex = 0;
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.Write("input number index " + i + " : ");
+                numbers[i] = int.Parse(Console.ReadLine());
+
+                if (i % 2 != 0)
+                {
+                    sumOfOddIndex += numbers[i];
+                    countOfOddIndex++;
+                }
+            }
+
+            double averageOfOddIndex = (double)sumOfOddIndex / countOfOddIndex;
+
+            Console.WriteLine("sum of odd index array = " + sumOfOddIndex);
+            Console.WriteLine("average of odd index array = " + averageOfOddIndex);
+
+            Console.Write("array is greater than average : ");
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (numbers[i] > averageOfOddIndex && i % 2 != 0)
+                {
+                    Console.Write(numbers[i] + " ");
+                }
+            }
+            
+            //ข้อที่ 2
+            string[] names = { "TONSON", "CHIDAPA", "NARI", "CHOMPOO", "ARKOM", "NINA", "CARTOON" };
+            Console.Write("First character to find: ");
+            char firstChar = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            Console.Write("\nOutput: \n\n\tName = ");
+            foreach (string name in names)
+            {
+                Console.Write(name + " ");
+            }
+            Console.Write("\n\tFirst character as " + firstChar + " = ");
+
+            foreach (string name in names)
+            {
+                if (name.StartsWith(firstChar.ToString(), StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.Write(name + " ");
+                }
+            }
+            Console.WriteLine("\n\nPress any key to exit program");
+            */
+            //ข้อที่ 3
+            Console.Write("Input size of array : ");
+            int size = int.Parse(Console.ReadLine());
+
+            int[] numbers = new int[size];
+
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write("Input value in array No. " + i + " : ");
+                numbers[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("\nOutput :");
+            Console.Write("\tValue in array = ");
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write(numbers[i] + " ");
+            }
+
+            Console.Write("\n\tDescending number ==> ");
+            Array.Sort(numbers);
+            Array.Reverse(numbers);
+
+            for (int i = 0; i < size; i++)
+            {
+                Console.Write(numbers[i] + " ");
+            }
+
+            
+            Console.ReadKey();
+        }
+    }
+}
+
+```
